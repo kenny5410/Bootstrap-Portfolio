@@ -33,6 +33,11 @@ h1 {
     color: #777777;
 }
 
+.btn {
+    background: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
