@@ -11,41 +11,50 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg p-3 mb-2 bg-primary text-white">
-        <a class="navbar-brand text-white" href="index.html">Ken Nelson</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="index.html">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
+    <div class="containter">
+        <nav class="navbar" style="background-color: #ffffff">
+            <strong class="navbar-brand" href="index.html">Ken Nelson</strong>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" style="
+                border:none" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
 
     <div class="container">
         <div class="row">
-            <div class="col">
-                <h1>About Me</h1>
+            <div class="col-lg-11 mx-auto mt-5">
+                <div class="card">
+                    <h1>About Me</h1>
+                    <div class="card-body">
+                    <img class="card-img" class="float-left" src="assets/images/DSC_7002.jpg" alt="Ken">
+                    <p class="card-text" class="float-left">Hello! My name is Ken Nelson and I'm so happy that you have navigated this vast Internet landscape and landed on my portfolio. Before you start looking at some of my Web Development work let me tell you a bit about myself.
+                        My jorney started in Kenya which is a country on the east coast of Africa. That is where I was born and lived until I was four years old. On October 15, 1992 I made my way to Minnesota with my Mom and Dad and settled in Little
+                        Canda. I lived there for a year and then moved to the Como Park neighborhood in St. Paul where I spent the rest of childhood. After graduating from Como Park High School I enrolled at the University of Minnesota and gained my
+                        Bachelors of Journalism after 4 years.
+                        <br></br>   
+                        After graduating from the "U" I started my millennial right of passage, moved back home and worked a retail job before I was able to find a consistant job as a bank teller to launch myself into adulthood. As it turned out a bank 
+                        teller's life was not a life for me. Growing up I was always interested computers so I decided to change my career and started working in tech support for a transportation techology company based in Minnetonka. This was a much
+                        better fit for my skills and I eventually was promoted to help run and support Beta software and hardware projects.
+                    </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <img src="assets/images/DSC_7002.jpg" class="rounded mx-auto d-block" alt="Ken">
-            </div>
-        </div>
-    </div>
-
+    <footer class="footer">
+        <span class="text-white">Copyright©</span>
+    </footer>
+    
 </body>
 </html>
