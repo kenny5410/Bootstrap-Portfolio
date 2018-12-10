@@ -10,6 +10,10 @@ h1 {
     border-bottom: 1px solid #777777;
 }
 
+.bg-company-white {
+    background-color: #ffffff;
+}
+
 .navbar-brand {
     background: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -21,12 +25,12 @@ h1 {
 .nav-link {
     color: #777777;
     font-size: 16px;
-    border-right: 1px solid #777777;
 }
 
 .card-img {
     width: 200px;
     height: 150px;
+    margin-right: 20px;
 }
 
 .card-text {
